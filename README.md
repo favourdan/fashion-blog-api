@@ -1,1 +1,0 @@
-# fashion-blog-api
