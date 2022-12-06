@@ -33,9 +33,9 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: favouritedan/fashion-blog-api
+        image: fashion-blog-api
         tags: latest
-#        registry: docker.io
+        registry: docker.io
         dockerfile: src/Dockerfile.ci
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
