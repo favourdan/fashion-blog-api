@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.favourdan.blog</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>fashion-blog-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>FashionBlogApi</name>
 	<description>Fashion Blog</description>
